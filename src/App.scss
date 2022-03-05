@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #8ab4f8;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body,
+html {
+  font-size: 1.1rem;
+  font-weight: 400;
+  width: 100%;
+  background: #faf3ea;
+  color: #202122;
+}
+
+hr {
+  border-top: dotted #aaaaaa;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.tenkai-button {
+  margin-bottom: 1rem !important;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 1rem;
+}
+
+.bord {
+  background: #ffffff;
+  padding: 10px;
+  max-width: 800px;
+}
+
+.linearProgress {
+  margin: 50px;
+  .linearProgress-text {
+    text-align: center;
+    font-size: large;
+  }
+}
+
+.input-box {
+  background: #ffffff;
+}
+
+.anker {
+  color: #8ab4f8;
+}
+
+.tooltip-inner {
+  font-size: 1.2rem;
+}
+
+.view-body {
+  padding: 20px;
+  background: #ffffff;
+}
+
+.link-text {
+  margin-top: 1rem;
+}
+
+.boad-row {
+  min-width: 300px;
+  .user-name {
+    font-size: 0.8rem;
+  }
+}
+
+.anker {
+  width: 2rem;
+}
+
+.menu-drawer {
+  max-width: 300px;
+}
